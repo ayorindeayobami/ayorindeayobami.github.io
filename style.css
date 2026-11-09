@@ -24,12 +24,12 @@
 
 .superstore-visual img {
   position: absolute;
-  left: 2%;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 96%;
+  width: 100%;
   height: auto;
-  max-height: 170px;
+  max-height: none;
   object-fit: contain;
   display: block;
 }
