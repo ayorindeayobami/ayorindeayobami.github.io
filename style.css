@@ -16,3 +16,15 @@
 .profile-art .tag-python{bottom:70px;left:15px}
 @media(max-width:850px){.profile-frame{width:290px;height:350px}.profile-glow{width:350px;height:350px}}
 @media(max-width:650px){.profile-art{height:390px;margin-top:28px}.profile-frame{width:270px;height:325px}.profile-glow{width:320px;height:320px}.profile-caption{right:calc(50% - 155px);bottom:22px}.profile-art .tag-sql{left:0;top:28px}.profile-art .tag-powerbi{right:0;top:110px}.profile-art .tag-python{bottom:35px;left:0}}
+.superstore-visual {
+  height: 230px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.superstore-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
