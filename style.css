@@ -23,9 +23,13 @@
 }
 
 .superstore-visual img {
- width: calc(100% + 24px);
-  height: 100%;
-  margin-left: -12px;
+  position: absolute;
+  left: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 96%;
+  height: auto;
+  max-height: 170px;
   object-fit: contain;
   display: block;
 }
